@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+ 
+body{
+    font-family: Verdana;
+    color: white;
+  
+  
+}
+#sayt{
+   padding-left: 70px;
+    width: 100%;
+    height: 10000px;
+  
+   background-color: rgb(83, 81, 81);
+
+   background-image: url("Background.jpg");
+   background-position: ;
+   background-size: cover;
+   background-attachment: fixed;
+}
+#menu::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+#menu:hover{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#menu {    
+  
+    float: left;
+    width: 330px;
+    height: 1117px;
+   
+    background-color: rgba(161, 35, 35, 0.973);
+    max-height: 680px;
+    position: fixed;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.A-hover:hover .nav-a{
+   
+        color: brown;
+        text-decoration: none;
+  
+}
+#portrait{
+    width: 100%;
+    display: inline-block;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.SteveJobs{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;}
+.name{
+    margin-top: 40px;
+    line-height: 37px;
+}
+#Atop{
+    border-top: 1px solid white;
+}
+.A{
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+h4{
+    word-spacing: 0.1px;
+
+}
+.A-hover:hover{
+    background-color: white;
+    color: brown;
+    transition: all 0.5s ease;
+    font-weight: 100;
+}
+#Asize{
+    height: auto;
+    border-bottom: 0.1px solid rgb(219, 217, 217);
+}
+.icon{
+    margin: 80px auto;
+    display: inline-block;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+.icon:hover{
+    background-color: rgb(223, 223, 223);
+  
+}
+
+
+#content{
+    float: right;
+    margin-right: 69px;
+    margin-left: 0;
+    width: 830px;
+    height: 10000px;
+    font-size: 120%;
+   
+}
+#About{
+    color: white;
+    width: 620px;
+    margin: 95px auto;
+    text-align: center;
+}
+#line{
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.About-line-height{
+    padding-bottom: 13px;
+}
+.left-image-post{
+   
+}
+
+.images{
+    margin-left: 70px;
+    border-radius: 10px;
+}
+#left{
+    float: left;
+}
+.right-post{
+    color: white;
+    float: right;
+    margin-right: 50px;
+    width: 320px;
+    display: inline-block;
+}
+.padding-top{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#center{
+    border: none;
+    background-color: white;
+    color: brown;
+    padding: 12px 20px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+#center:hover{
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 12px 20px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+.bott-line{
+    display: inline-block;
+    width: 700px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+    height: 0px;
+    border-bottom: 2px solid rgb(85, 80, 80);
+}
+
+
+
+.images{
+    margin-right: 60px;
+    border-radius: 10px;
+}
+#right{
+    float: right;
+}
+.left-post{
+    color: white;
+    float: left;
+    margin-left: 50px;
+    width: 320px;
+    display: inline-block;
+}
+.padding-top{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.btn-pad-top{
+    border: none;
+    background-color: white;
+    color: brown;
+    padding: 12px 20px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+.btn-pad-top:hover{
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 12px 20px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+.bott-line{
+    display: inline-block;
+    width: 700px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+    height: 0px;
+    border-bottom: 2px solid rgb(85, 80, 80);
+}
+
+
+#What-I’m-good-at{
+    color: white;
+    width: 620px;
+    margin: 95px auto;
+    margin-top: 0px;
+    text-align: center;
+}
+#line{
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.What-I’m-good-at-line-height{
+    padding-bottom: 13px;
+}
+
+#box{
+    color: white;
+    text-align: center;
+    margin: 30px 50px ;
+    padding-bottom: 30px;
+
+}
+/* RIGHT BOX */
+.box-card-bulb{
+    float: left;
+    padding: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    background-color: rgb(128, 128, 128, 0.3);
+    /* border: 1px solid black; */
+    font-size: 112%;
+    font-weight: 80%;
+}
+
+.box-card-bulb:hover{
+    float: left;
+    padding: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    background-color: white;
+    /* border: 1px solid black; */
+    color: black;
+    font-size: 112%;
+    font-weight: 80%;
+}
+
+.circle-div{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 50%;
+    /* background-color: grey; */
+    padding: 13px auto;
+  
+}
+
+#box .box-card-bulb:hover .circle-div{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgba(114, 16, 16, 0.973);
+    background-image: url("light-bulb-2-48\ \(2\).png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    /* background-color: grey; */
+    padding: 13px auto;
+
+  
+}
+
+.inside-icons{
+    margin: 13px auto;
+}
+.inside-icons:hover{
+    display: none;
+    margin: 13px auto;
+}
+#box  .box-card-bulb:hover .inside-icons{
+    display: none;
+}
+
+
+
+
+/* leftbox */
+
+
+
+
+.box-card-code{
+
+    float: right;
+    padding: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    background-color: rgb(128, 128, 128, 0.3);
+    /* border: 1px solid black; */
+    font-size: 112%;
+    font-weight: 80%;
+   
+}
+.box-card-code:hover{
+
+    float: right;
+    padding: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    background-color: white;
+    /* border: 1px solid black; */
+    color: black;
+    font-size: 112%;
+    font-weight: 80%;
+}
+.circle-div{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 50%;
+    /* background-color: grey; */
+    padding: 13px auto;
+  
+}
+
+#box .box-card-code:hover .circle-div{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgba(114, 16, 16, 0.973);
+    background-image: url("code-2-48\ \(2\).png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    /* background-color: grey; */
+    padding: 13px auto;
+
+  
+}
+
+.inside-icons{
+    margin: 13px auto;
+}
+.inside-icons:hover{
+    display: none;
+    margin: 13px auto;
+}
+#box  .box-card-code:hover .inside-icons{
+    display: none;
+}
+
+
+
+/* RIGHT BOX */
+
+
+
+.box-card-setting{
+    margin-top: 10px;
+    float: left;
+    padding: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    background-color: rgb(128, 128, 128, 0.3);
+    /* border: 1px solid black; */
+    font-size: 112%;
+    font-weight: 80%;
+ 
+}
+
+.box-card-setting:hover{
+    margin-top: 10px;
+    float: left;
+    padding: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    background-color: white;
+    /* border: 1px solid black; */
+    color: black;
+    font-size: 112%;
+    font-weight: 80%;
+}
+
+.circle-div{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 50%;
+    /* background-color: grey; */
+    padding: 13px auto;
+  
+}
+
+#box .box-card-setting:hover .circle-div{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgba(114, 16, 16, 0.973);
+    background-image: url("settings-48.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    /* background-color: grey; */
+    padding: 13px auto;
+
+  
+}
+
+.inside-icons{
+    margin: 13px auto;
+}
+.inside-icons:hover{
+    display: none;
+    margin: 13px auto;
+}
+#box  .box-card-setting:hover .inside-icons{
+    display: none;
+}
+
+
+
+/* LEFT BOX */
+
+.box-card-line-chart{
+    margin-top: 10px;
+    float: right;
+    padding: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    background-color: rgb(128, 128, 128, 0.3);
+    /* border: 1px solid black; */
+    font-size: 112%;
+    font-weight: 80%;
+   
+}
+.box-card-line-chart:hover{
+    margin-top: 10px;
+    float: right;
+    padding: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    background-color: white;
+    /* border: 1px solid black; */
+    color: black;
+    font-size: 112%;
+    font-weight: 80%;
+}
+.circle-div{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 50%;
+    /* background-color: grey; */
+    padding: 13px auto;
+  
+}
+
+#box .box-card-line-chart:hover .circle-div{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgba(114, 16, 16, 0.973);
+    background-image: url("line-chart-48.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    /* background-color: grey; */
+    padding: 13px auto;
+
+  
+}
+
+.inside-icons{
+    margin: 13px auto;
+}
+.inside-icons:hover{
+    display: none;
+    margin: 13px auto;
+}
+#box  .box-card-line-chart:hover .inside-icons{
+    display: none;
+}
+
+
+
+#My-Work{
+    color: white;
+    width: 620px;
+    margin: 95px auto;
+    margin-top: 0px;
+    text-align: center;
+}
+#line{
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.My-work-line-height{
+    padding-bottom: 13px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+   
+}
+li{
+    display: inline-block;
+  
+}
+.nav-pictures-li{
+    color: white;
+    text-decoration: none;
+}
+.nav-pictures-li:active{
+    border-bottom: 2px solid brown;
+    color: brown;
+ 
+}
+
+
+
+#work-picture-top{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.picture-left1{
+    margin-left: 50px;
+    display: inline-block;
+    width: 360px;
+    height: 340px;
+    background-image: url("Portfolio_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  
+   
+}
+
+.picture-right2{
+    margin-right: 50px;
+    display: inline-block;
+    width: 360px;
+    height: 340px;
+    background-image: url("Portfolio_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  
+   
+}
+
+
+.picture-left3{
+    margin-left: 50px;
+    display: inline-block;
+    width: 360px;
+    height: 340px;
+    background-image: url("Portfolio_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  
+   
+}
+
+.picture-right4{
+    margin-right: 50px;
+    display: inline-block;
+    width: 360px;
+    height: 340px;
+    background-image: url("Portfolio_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  
+   
+}
+
+.picture-left5{
+    margin-left: 50px;
+    display: inline-block;
+    width: 360px;
+    height: 340px;
+    background-image: url("Portfolio_5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  
+   
+}
+
+.picture-right6{
+    margin-right: 50px;
+    display: inline-block;
+    width: 360px;
+    height: 340px;
+    background-image: url("Portfolio_6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  
+   
+}
+
+
+#Contact-me{
+    color: white;
+    width: 620px;
+    margin: 95px auto;
+    margin-top: 0px;
+    text-align: center;
+}
+#line{
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.Contact-me-line-height{
+    padding-bottom: 13px;
+}
+
+#name{
+    margin-left: 50px;
+    display: inline-block;
+  
+}
+#email{
+    float: right;
+    display: inline-block;
+    margin-right: 50px;
+}
+.btn-sizeName{
+    padding-left: 15px;
+    font-size: 16px;
+    width: 350px;
+    height: 40px;
+    background-color: rgb(128, 128, 128, 0.1);
+    border: 1px solid white;
+}
+
+.forum-bott{
+    padding-bottom: 30px;
+
+}
+#subject{
+
+       margin: 0px 50px;
+        display: inline-block;
+
+}
+
+.btn-sizeSubject{
+    padding-left: 15px;
+    font-size: 16px;
+    width: 730px;
+    height: 40px;
+    background-color: rgb(128, 128, 128, 0.1);
+    border: 1px solid white;
+}
+
+
+#message{
+
+    margin: 0px 50px;
+    display: inline-block;
+ 
+}
+
+.btn-sizeMessage{
+    padding-bottom: 170px;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 730px;
+    height: 230px;
+    border: 1px solid white;
+    background-color: rgb(128, 128, 128, 0.1);
+  
+}
+
+
+#center{
+    border: none;
+    background-color: white;
+    color: brown;
+    padding: 12px 20px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+  margin-left: 330px;
+}
+#center:hover{
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 12px 20px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.bott-line{
+    display: inline-block;
+    width: 700px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+    height: 0px;
+    border-bottom: 2px solid rgb(85, 80, 80);
+}
